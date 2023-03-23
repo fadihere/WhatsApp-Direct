@@ -26,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Icon(
-              Icons.whatsapp,
+              Icons.message,
               color: Colors.green,
               size: MediaQuery.of(context).size.width / 2,
             )

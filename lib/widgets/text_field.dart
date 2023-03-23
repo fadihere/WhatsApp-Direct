@@ -108,6 +108,7 @@ class CustomTextField extends StatelessWidget {
         maxLines: maxLines != null ? null : 1,
         controller: controller,
         onTap: onTap,
+        keyboardType: TextInputType.phone,
         readOnly: readOnly ?? false,
         cursorColor: AppColors.kGreen,
         validator: (value) => (validator!(value!)),
